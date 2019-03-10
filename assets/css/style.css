@@ -72,6 +72,7 @@ fieldset {
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
 /* styles the h2 tag inside of body section class */
@@ -108,4 +109,33 @@ footer {
   width: 8em;
   position: absolute;
   text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+  p {
+    word-wrap: break-word;
+  }
+  header {
+    position: static;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  header {
+    position: static;
+  }
 }
