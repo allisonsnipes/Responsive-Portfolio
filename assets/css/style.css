@@ -70,6 +70,10 @@ fieldset {
   margin-top: 2em;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* styles the h2 tag inside of body section class */
 .aboutMe, .contact, .portfolio {
   color: salmon;
